@@ -2,18 +2,20 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="containerV">
-      <div className="boxV boxV1">Box 1</div>
-      <div className="boxV boxV2">
-        <div className="containerH">
-          <div className="boxH boxH1">Box 1</div>
-          <div className="boxH boxH2">Box 2</div>
-          <div className="boxH boxH3">Box 3</div>
+    <>
+      <div className="container">
+        <div className="main1">
+          <div className="left"></div>
+        </div>
+        <div className="main2">
+          <div className="top">
+            <div className="box1"></div>
+            <div className="box2"></div>
+          </div>
+          <div className="bottom"></div>
         </div>
       </div>
-      <div className="boxV boxV3">Box 3</div>
-    </div>
+    </>
   );
 }
-
 export default App;
